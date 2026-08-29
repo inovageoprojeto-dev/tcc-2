@@ -1,0 +1,4 @@
+Etapa posterior
+8 integração com imagens de satélite para acompanhar a evolução do foco e estimar a área atingida. 
+8 Classificação: o sistema pode avaliar intensidade, recorrência, proximidade de outros focos e, posteriormente, área afetada.
+9 Acompanhamento: o painel registra se o alerta foi recebido, encaminhado e tratado.

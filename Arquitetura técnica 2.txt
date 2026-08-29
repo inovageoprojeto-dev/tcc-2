@@ -1,0 +1,33 @@
+                INPE
+                  │
+                  ▼
+        Dados de focos de calor
+                  │
+                  ▼
+
+        │ Banco Geográfico    │
+        │ PostgreSQL/PostGIS  │
+                   │
+		     
+
+			Geração do alerta	
+			Notificação
+			Unidade mais próxima
+        
+   Classificação        Base Bombeiros
+      do foco           Postos/Unidades
+          │                  │
+                   ▼
+          Motor de decisão
+                   │
+                   ▼
+       	                  websig     	
+                   ▼	              ▼	
+               Notificação		
+                    │
+                    ▼
+                   Equipe/CB
+                  Coordenadas
+                    │
+                    ▼
+               endereço do foco Google Maps

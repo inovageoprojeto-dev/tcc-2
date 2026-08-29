@@ -1,0 +1,84 @@
+                         │        INPE         │
+                         │  Dados de focos de  │
+                         │       calor         │
+                                    │
+                                    ▼
+                         │  INGESTÃO DE DADOS  │
+                         │                     │
+                         │ API / Arquivo / ETL │
+                         │ Validação           │
+                         │ Padronização        │
+                         │ Deduplicação        │
+                                    │
+                                    ▼
+                         │ BANCO GEOESPACIAL   │
+                         │                     │
+                         │ PostgreSQL          │
+                         │ + PostGIS           │
+                         │                     │
+                         │ • Focos             │
+                         │ • Ocorrências       │
+                         │ • Histórico         │
+                                    │
+                                    ▼
+                         │ PROCESSAMENTO       │
+                         │ GEOESPACIAL         │
+                         │                     │
+                         │ • Coordenadas       │
+                         │ • Município         │
+                         │ • Estado            │
+                         │ • Área de atuação   │
+                         │ • Proximidade       │
+                                    │
+                   ▼                          ▼
+        │ BASE CORPO DE       │          │ MOTOR DE           │
+        │ BOMBEIROS           │          │ CLASSIFICAÇÃO      │
+        │                     │          │                     │
+        │ • Postos            │          │ • Intensidade       │
+        │ • Companhias        │          │ • Recorrência       │
+        │ • Batalhões         │          │ • Concentração      │
+        │ • Coordenadas       │          │ • Proximidade       │
+        │ • Áreas responsáveis│          │ • Prioridade        │
+                   │                                │
+                                   ▼
+                         │ MOTOR DE DECISÃO    │
+                         │                     │
+                         │ Determina:          │
+                         │ • Unidade responsável│
+                         │ • Unidade mais próxima│
+                         │ • Prioridade         │
+                         │ • Destinatário       │
+                                    │
+                                    ▼
+                         │ GERADOR DE          │
+                         │ OCORRÊNCIA          │
+                         │                     │
+                         │ ID do alerta        │
+                         │ Coordenadas         │
+                         │ Data/hora            │
+                         │ Dados do foco       │
+                         │ Prioridade          │
+                         │ Unidade responsável │
+                                    │
+                         ▼                     ▼
+              │      WebGIS      │   │ SISTEMA DE       │
+              │                  │   │ NOTIFICAÇÃO      │
+              │ • Mapa           │   │                  │
+              │ • Focos          │   │ • Push           │
+              │ • Ocorrências    │   │ • App            │
+              │ • Unidades       │   │ • API            │
+              │ • Status         │   │ • Outros canais  │
+                       │                      │
+                       │                      ▼
+                       │             │ CORPO DE          │
+                       │             │ BOMBEIROS         │
+                       │             │                   │
+                       │             │ Recebe ocorrência │
+                       │                      │
+                                  ▼
+                         │ LOCALIZAÇÃO /       │
+                         │ NAVEGAÇÃO           │
+                         │                     │
+                         │ Coordenadas         │
+                         │        ↓            │
+                         │   Google Maps       │

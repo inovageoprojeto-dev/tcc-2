@@ -1,0 +1,9 @@
+1 Entrada: focos de calor do INPE já processados, com geometria/localização dos focos.
+
+https://dataserver-coids.inpe.br/queimadas/queimadas/focos/csv/diario/Brasil/?pag=1&utm_source=chatgpt.com
+
+transformar de lat long graus decimais para UTM 
+
+http://www.dpi.inpe.br/calcula/
+
+ver a projeção correta

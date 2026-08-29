@@ -1,0 +1,33 @@
+                 │        INPE          │
+                 │  Focos de calor      │
+                            │
+                            ▼
+                 │ INGESTÃO DE DADOS    │
+                 │ API / arquivos / FTP │
+                            │
+                            ▼
+              │ PROCESSAMENTO GEOESPACIAL   │
+              │ • coordenadas               │
+                            │
+                            ▼
+              │ BANCO GEOESPACIAL           │
+              │ PostgreSQL + PostGIS        │
+          ▼                                 ▼
+│ MOTOR DE ALERTAS  │             │ ANÁLISE SATELITAL  │
+│                   │             │  (posterior)       │
+│ foco → prioridade │             │ área afetada       │
+│ foco → bombeiro   │             │ evolução           │
+│ foco → notificação│             │ severidade         │
+          │                                 │
+          
+                         ▼
+              │        API           │
+              │ REST / WebSocket     │
+                         │
+                         ▼
+              │       WebGIS         │
+              │ mapa    + acompanhamento│
+                         │
+                         ▼
+                │ Gestores     │
+                │ painel       │

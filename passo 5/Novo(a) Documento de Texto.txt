@@ -1,0 +1,1 @@
+5 WebGIS: cada foco aparece automaticamente no mapa como um alerta geográfico.
