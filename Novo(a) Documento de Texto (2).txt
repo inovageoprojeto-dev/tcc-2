@@ -12,9 +12,6 @@
                             ▼
               ┌─────────────────────────────┐
               │ PROCESSAMENTO GEOESPACIAL   │
-              │ • validação                 │
-              │ • deduplicação              │
-              │ • normalização              │
               │ • coordenadas               │
               └─────────────┬───────────────┘
                             │
