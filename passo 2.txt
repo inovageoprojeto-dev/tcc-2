@@ -20,5 +20,5 @@ como interligar? exemplo
 	selecionar as 3 menores distancias
 
 FRP e bioma 
-	os focos com mais potencial radiativo devem ser melhor averiguados
-	os focos em biomas mais secos analisar com importancia
+	os focos com mais potencial radiativo devem ser melhor averiguados 
+	os focos em biomas mais secos analisar com importancia 
