@@ -1,0 +1,15 @@
+1 Entrada de dados 
+tabela csv com localização e potencial de radiação do fogo
+
+localização em graus decimais 
+
+usar calc. inpe
+
+qual projeção?
+
+estruturar o banco de dados 
+	dados csv das queimadas
+	dados shp das cidades
+	dados para o websig
+
+

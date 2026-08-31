@@ -1,0 +1,24 @@
+o foco de calor do INPE é o gatilho primário
+
+2 Geomarketing SQL 
+
+processamento dos novos focos
+	função em sql para identificar os focos baseados em data e hora
+
+processamento das localizaçao dos novos focos
+	usar os pontos em lat e longitude, para converter para graus decimais
+	usar a calc. do inpe
+
+qual cidade alertar
+	usar novos focos 
+	usar centroide das cidades
+	interligar os centroides mais proximos do foco
+
+como interligar? exemplo
+	foco em sp
+	medir a distancia de todos centroides para o foco 
+	selecionar as 3 menores distancias
+
+FRP e bioma 
+	os focos com mais potencial radiativo devem ser melhor averiguados
+	os focos em biomas mais secos analisar com importancia

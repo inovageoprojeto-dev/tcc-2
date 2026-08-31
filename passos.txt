@@ -3,15 +3,11 @@ o foco de calor do INPE é o gatilho primário
 
 
 1 Entrada: focos de calor do INPE já processados, com geometria/localização dos focos.
-2 Localização da unidade responsável: cruzamento do foco com a base nacional dos postos/unidades do Corpo de Bombeiros
-3 Automação: identificar a unidade/equipe mais próxima ou responsável e gerar o alerta.
-4 Localização da unidade responsável: cruzamento do foco com a base nacional dos postos/unidades do Corpo de Bombeiros.
-5 WebGIS: cada foco aparece automaticamente no mapa como um alerta geográfico.
-6 Alerta operacional: a equipe recebe a ocorrência contendo localização, coordenadas, horário, informações do foco e acesso ao mapa.
-7 Navegação: botão para abrir/compartilhar a localização no Google Maps, facilitando o deslocamento até o ponto.
+2 Estruturação dos dados: dentro do postgreSQL
+2 Geomarketing SQL: identificar a cidade/equipe mais próxima ou responsável e gerar o alerta. 
+3 Alerta operacional: a equipe recebe a ocorrência contendo localização, coordenadas, horário, informações do foco e acesso ao mapa.
+4 WebGIS: cada foco aparece automaticamente no mapa como um alerta geográfico.
 \
-Etapa posterior
-8 integração com imagens de satélite para acompanhar a evolução do foco e estimar a área atingida. 
-8 Classificação: o sistema pode avaliar intensidade, recorrência, proximidade de outros focos e, posteriormente, área afetada.
-9 Acompanhamento: o painel registra se o alerta foi recebido, encaminhado e tratado.
-
+Etapa monitoramento
+5 integração com imagens de satélite para acompanhar a evolução do foco e estimar a área atingida. 
+6 Classificação: o sistema pode avaliar intensidade, recorrência, proximidade de outros focos e, posteriormente, área afetada.
